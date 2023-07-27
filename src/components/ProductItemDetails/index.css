@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.product-detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+  padding: 20px;
+}
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ratingContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.productInformation {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.title {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.price {
+  font-weight: bold;
+}
+.incrementDecrement {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.decrement {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.increment {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: 1px solid black;
+}
